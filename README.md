@@ -11,7 +11,7 @@ This Script was made to help me more easily archive the various LN in EPUB forma
 
 ## Usage
 
-    epuboptimizer [-h] [--debug DEBUG] --input INPUT --output OUTPUT
+    epuboptimizer.py [-h] [--debug DEBUG] --input INPUT --output OUTPUT
 
 | OPTION | IS REQUIRED | DESCRIPTION |
 |--------|-------------|-------------|
