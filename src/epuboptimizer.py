@@ -46,7 +46,7 @@ input_path = ""
 input_files = []
 
 
-def parsing():
+def parse_arguments():
     global output_path, input_path, input_files
     output_path = args.output
     if not os.path.exists(args.input):
@@ -102,7 +102,7 @@ def compress_and_clean():
         shutil.rmtree(f"{output_path}\\{dir}")
 
 
-parsing()
+parse_arguments()
 decompress()
 optimize()
 compress_and_clean()
